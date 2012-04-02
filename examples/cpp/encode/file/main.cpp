@@ -28,6 +28,10 @@
 #  include <config.h>
 #endif
 
+#ifdef __QNXNTO__
+#include <string.h>
+#endif
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "FLAC++/metadata.h"
